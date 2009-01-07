@@ -7,6 +7,9 @@ cd $PRJ/configs
 cp neurostvpc.seed $BUILD/preseed
 cp isolinux.cfg $BUILD/isolinux
 rm neurostvpc.seed
+mkdir $BUILD/custom-files
+cp sources.list $BUILD/custom-files
+cp ramfs-setup.sh $BUILD/custom-files
 
 mkisofs -r -V "Custom Ubuntu Install CD" \
             -cache-inodes \
