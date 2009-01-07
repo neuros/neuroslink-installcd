@@ -1,0 +1,6 @@
+d1f97208eda05e80b14b05998742bde3  ./apt-ftparchive-udeb.conf
+d41d8cd98f00b204e9800998ecf8427e  ./md5sum.txt
+11f1bf180ca8d945ff612a1a1f4bb351  ./release.conf
+6d521eb4f7d62c38d4ff816b2f9d7f17  ./apt-ftparchive-extras.conf
+fc1130cc8e0ab532d3534a24608cbd85  ./apt-ftparchive-deb.conf
+ccafe376f8fe241ecac5761f3756eb3f  ./buildandmd5.sh
