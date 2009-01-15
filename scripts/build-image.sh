@@ -1,5 +1,5 @@
 IMAGE=custom.iso
-PRJ=/srv/storage/projects/neuros-cd
+PRJ=/srv/storage/projects/neuroslink-installcd
 BUILD=$PRJ/cd-image/
 
 cd $PRJ/configs
