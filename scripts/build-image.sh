@@ -1,5 +1,5 @@
 IMAGE=custom.iso
-PRJ=/srv/storage/projects/neuroslink-installcd
+PRJ=/home/tom/git/neuroslink-installcd
 BUILD=$PRJ/cd-image/
 
 cd $PRJ/configs
@@ -7,6 +7,7 @@ cd $PRJ/configs
 cp neurostvpc.seed $BUILD/preseed
 rm neurostvpc.seed
 mkdir -p $BUILD/configs
+cp isolinux.cfg $BUILD/isolinux
 cp sources.list $BUILD/configs
 cp ramfs-setup.sh $BUILD/configs
 
